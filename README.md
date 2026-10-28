@@ -6,6 +6,16 @@ This repository deliberately keeps custom Caelestia configuration in
 `~/.config/caelestia`. It does **not** store `~/.config/hypr`, which Caelestia
 manages itself during installation and updates.
 
+## Screenshots
+
+Foot terminals with Fastfetch and the wallpaper visible through transparent windows:
+
+![Foot terminals with Fastfetch](screenshots/terminal.png)
+
+Caelestia desktop with the dashboard, launcher and sidebar:
+
+![Caelestia desktop](screenshots/caelestia.png)
+
 ## New laptop (Arch Linux)
 
 1. Install Caelestia and apply its defaults:
