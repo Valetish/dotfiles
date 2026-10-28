@@ -36,8 +36,11 @@ install_item "${repo_dir}/config/nvim" "${HOME}/.config/nvim"
 install_item "${repo_dir}/config/fastfetch" "${HOME}/.config/fastfetch"
 install_item "${repo_dir}/config/starship.toml" "${HOME}/.config/starship.toml"
 install_item "${repo_dir}/gitconfig" "${HOME}/.gitconfig"
+install_item "${repo_dir}/wallpapers/IMG_7745.JPEG" "${HOME}/Pictures/Wallpapers/IMG_7745.JPEG"
+
+caelestia wallpaper -f "${HOME}/Pictures/Wallpapers/IMG_7745.JPEG"
 
 if [[ -d "$backup_dir" ]]; then
   printf 'Previous files were backed up to: %s\n' "$backup_dir"
 fi
-printf 'Dotfiles installed. Run `caelestia install` first on a new Arch system.\n'
+printf 'Dotfiles and wallpaper installed. Run `caelestia install` first on a new Arch system.\n'

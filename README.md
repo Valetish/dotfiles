@@ -23,9 +23,10 @@ manages itself during installation and updates.
    ./install.sh
    ```
 
-`install.sh` moves any existing matching configuration into
-`~/.dotfiles-backup/<timestamp>` and replaces it with symlinks to this
-repository. Review that backup before deleting it.
+`install.sh` installs the included `IMG_7745.JPEG` wallpaper into
+`~/Pictures/Wallpapers` and selects it in Caelestia. It moves any existing
+matching configuration into `~/.dotfiles-backup/<timestamp>` and replaces it
+with symlinks to this repository. Review that backup before deleting it.
 
 ## Notes
 
@@ -36,3 +37,7 @@ repository. Review that backup before deleting it.
   Add a monitor layout there after connecting the new laptop's displays.
 - Existing Caelestia configs once used `.conf`; Caelestia now uses the included
   Lua override files instead.
+- Foot's font, transparency, pink and grey palette, Fish startup, Starship
+  prompt, and Fastfetch logo are included. Install the same font for the
+  closest visual match. Fastfetch's device, OS, GPU, disk, and uptime lines
+  will reflect the new laptop.

@@ -1,7 +1,7 @@
 
 {
   "logo": {
-    "source": "/home/valetish/.config/fastfetch/obrazek.txt",
+    "source": "~/.config/fastfetch/obrazek.txt",
     "color": {
       "1": "#E8A3B8"
     },
