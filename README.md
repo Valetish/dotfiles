@@ -18,7 +18,7 @@ manages itself during installation and updates.
 2. Clone this repository and install the personal configuration:
 
    ```bash
-   git clone git@github.com:YOUR-USER/dotfiles.git ~/dotfiles
+   git clone git@github.com:Valetish/dotfiles.git ~/dotfiles
    cd ~/dotfiles
    ./install.sh
    ```
