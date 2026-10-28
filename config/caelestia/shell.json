@@ -1,0 +1,51 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": true
+        }
+    },
+    "background": {
+        "wallpaperEnabled": true
+    },
+    "bar": {
+        "workspaces": {
+            "activeTrail": true,
+            "maxWindowIcons": 4,
+            "occupiedBg": false,
+            "showWindows": true,
+            "showWindowsOnSpecialWorkspaces": true,
+            "shown": 6
+        }
+    },
+    "dashboard": {
+        "enabled": true
+    },
+    "general": {
+        "apps": {
+            "explorer": [
+                "dolphin"
+            ]
+        },
+        "language": "pl"
+    },
+    "launcher": {
+        "useFuzzy": {
+            "actions": true,
+            "apps": true,
+            "schemes": true,
+            "variants": true,
+            "wallpapers": true
+        },
+        "vimKeybinds": true
+    },
+    "services": {
+        "smartScheme": true,
+        "useTwelveHourClock": true
+    },
+    "utilities": {
+        "maxToasts": 4,
+        "toasts": {
+            "nowPlaying": false
+        }
+    }
+}

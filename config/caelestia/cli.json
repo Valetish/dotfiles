@@ -1,0 +1,12 @@
+{
+  "toggles": {
+    "communication": {
+      "discord": {
+        "command": [
+          "/usr/bin/discord",
+          "--ozone-platform=x11"
+        ]
+      }
+    }
+  }
+}

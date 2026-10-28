@@ -1,0 +1,79 @@
+
+{
+  "logo": {
+    "source": "/home/valetish/.config/fastfetch/obrazek.txt",
+    "color": {
+      "1": "#E8A3B8"
+    },
+    "padding": {
+      "top": 2,
+      "right": 4
+    }
+  },
+  "display": {
+    "separator": "  "
+  },
+  "modules": [
+    {
+      "type": "title",
+      "color": {
+        "user": "#E8A3B8",
+        "host": "#B9B3B7"
+      }
+    },
+    "break",
+    {
+      "type": "os",
+      "key": " ",
+      "keyColor": "#E8A3B8"
+    },
+    {
+      "type": "kernel",
+      "key": " ",
+      "keyColor": "#C5BEC2"
+    },
+    {
+      "type": "wm",
+      "key": " ",
+      "keyColor": "#E8A3B8"
+    },
+    {
+      "type": "terminal",
+      "key": " ",
+      "keyColor": "#C5BEC2"
+    },
+    {
+      "type": "shell",
+      "key": " ",
+      "keyColor": "#E8A3B8"
+    },
+    {
+      "type": "cpu",
+      "key": " ",
+      "keyColor": "#C5BEC2"
+    },
+    {
+      "type": "gpu",
+      "key": "󰢮 ",
+      "keyColor": "#E8A3B8"
+    },
+    {
+      "type": "disk",
+      "key": "󰋊 ",
+      "keyColor": "#C5BEC2"
+    },
+    {
+      "type": "uptime",
+      "key": " ",
+      "keyColor": "#E8A3B8"
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 0,
+      "symbol": "circle"
+    },
+    "break"
+  ]
+}
+  
